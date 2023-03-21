@@ -203,7 +203,7 @@ class ChatPage extends StatelessWidget {
                   );
                 }
                 // データが読み込み中の場合
-                return Center(
+                return const Center(
                   child: Text('読込中...'),
                 );
               },
